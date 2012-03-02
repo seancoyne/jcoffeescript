@@ -1,10 +1,10 @@
 # JCoffeeScript
 
-JCoffeeScript is a java library that compiles CoffeeScript 1.1.2.
+JCoffeeScript is a java library that compiles CoffeeScript 1.2.0.
 
 ### Usage
 from the command prompt:
->    echo "a = 1" | java -jar jcoffeescript-1.1.2.jar
+>    echo "a = 1" | java -jar jcoffeescript-1.2.0.jar
 <pre>
       (function() {
           var a;
@@ -13,7 +13,7 @@ from the command prompt:
 </pre>
 
 ####Command Line (unix/windows): 
->    java -jar jcoffeescript-1.1.2.jar < foo.coffee > foo.js
+>    java -jar jcoffeescript-1.2.0.jar < foo.coffee > foo.js
 
 ####command line options:  
 >    __--bare__   - compile the javascript without top-level function safety wrapper.  
